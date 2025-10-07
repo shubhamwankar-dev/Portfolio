@@ -7,14 +7,12 @@ html {
 }
 
 body {
-  background: url("../Portfolio-Project/assets/bg-img/body-bg.webp") no-repeat
-    center #999;
+  background: url("./assets/images/bg-img/body-bg.webp") no-repeat center #999;
 }
 
 .hero-section {
   z-index: 1;
-  background: url("../Portfolio-Project/assets/bg-img/home-banner.png")
-    no-repeat top center;
+  background: url("./assets/images/bg-img/home-banner.png") no-repeat top center;
   background-position: top;
 }
 
