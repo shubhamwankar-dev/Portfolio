@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: url("../Portfolio-Project/assets/bg-img/body-bg.webp") no-repeat
+    center #999;
+}
+
+.hero-section {
+  z-index: 1;
+  background: url("../Portfolio-Project/assets/bg-img/home-banner.png")
+    no-repeat top center;
+  background-position: top;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  70% {
+    width: 100%;
+  }
+  90% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing 4s steps(45, end) forwards infinite;
+}

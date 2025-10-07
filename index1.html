@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- TAILWIND CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--  -->
+
+    <!-- CSS LINK'S -->
+    <link rel="stylesheet" href="./style.css" />
+    <!--  -->
+
+    <title>Portfolio Project</title>
+  </head>
+  <body>
+    <header class="bg-[#E8E6E8] px-2 py-2 md:px-0 fixed top-0 w-[100%] lg:py-1">
+      <nav class="flex items-center justify-around">
+        <div
+          class="flex items-center gap-[7rem] md:flex md:items-center md:gap-4"
+        >
+          <img
+            src="./Profile_Pic.jpeg"
+            alt="Man wearing formal shirt with tie and specs"
+            class="w-[4rem] h-[4rem] md:w-[5rem] md:h-[5rem] lg:w-[4rem] lg:h-[4rem] rounded-[50rem]"
+          />
+          <h2
+            class="text-[2rem] font-bold text-[purple] md:text-[2.2rem] lg:text-[2rem]"
+          >
+            Shubham
+          </h2>
+        </div>
+
+        <ul
+          class="hidden md:flex md:text-[1.2rem] md:font-semibold md:gap-3 lg:gap-[5rem] md:uppercase"
+        >
+          <a href="#home"><li>Home</li></a>
+          <a href="#about"><li>About</li></a>
+          <a href="#skills"><li>Skills</li></a>
+          <a href="#projects"><li>Projects</li></a>
+          <a href="#education"><li>Education</li></a>
+          <!-- <a href="#contacts"><li>Contacts</li></a> -->
+        </ul>
+      </nav>
+    </header>
+
+    <main class="mt-[7rem] lg:mt-[6rem]">
+      <div class="container px-10 md:px-10 lg:px-20 mx-auto">
+        <section
+          id="home"
+          class="hero-section flex flex-col justify-center my-12 md:flex-row md:items-center md:justify-around md:my-12 scroll-mt-[7rem] lg:scroll-mt-[11rem]"
+        >
+          <div class="text_box mx-auto md:ml-auto lg:ml-auto">
+            <span class="flex items-center gap-5">
+              <h2 class="text-[1.6rem] md:text-[2rem] uppercase font-bold">
+                Hello
+              </h2>
+              <div
+                class="border md:border-y-2 md:border-black md:w-[20rem] lg:w-[30rem]"
+              ></div>
+            </span>
+
+            <span>
+              <h2
+                class="text-[1.45rem] md:text-[1.8rem] text-[purple] uppercase font-extrabold lg:text-[2.4rem] typewriter"
+              >
+                I AM SHUBHAM WANKAR
+              </h2>
+              <p
+                class="text-[1rem] md:text-[1.4rem] lg:text-[1.4rem] uppercase font-bold"
+              >
+                MERN FULL STACK DEVELOPER
+              </p>
+            </span>
+
+            <div class="flex gap-5 my-10">
+              <button
+                class="text-[1rem] font-semibold uppercase text-stone-100 rounded-md py-3 px-9 bg-gradient-to-r from-[#5256E0] to-[#7F50EC] animate-pulse"
+              >
+                Hire Me
+              </button>
+              <button
+                class="text-[1rem] font-semibold uppercase text-stone-900 rounded-md py-3 px-9 bg-stone-100"
+              >
+                GET CV
+              </button>
+            </div>
+          </div>
+
+          <div class="image_box mx-auto md:ml-auto">
+            <img
+              src="../Portfolio-Project/assets/illustration-img/home-right.webp"
+              alt=""
+              class="w-[15rem] h-[15rem] md:w-[25rem] md:h-[25rem] lg:w-[40rem] lg:h-[40rem]"
+            />
+          </div>
+        </section>
+
+        <section
+          id="about"
+          class="intro-section block md:flex md:flex-row md:items-center md:justify-center md:gap-[2rem] scroll-mt-[7rem]"
+        >
+          <div>
+            <img
+              src="../Portfolio-Project/assets/illustration-img/about-us.webp"
+              alt=""
+              class="hidden md:w-[90rem] lg:block"
+            />
+          </div>
+
+          <div class="flex flex-col items-center justify-center">
+            <h2 class="text-[1.5rem] md:text-[2.5rem] uppercase font-bold mb-8">
+              let’s Introduce about myself
+            </h2>
+            <p
+              class="text-[1rem] md:text-[1.6rem] lg:text-[1.2rem] text-stone-600 pe-0 md:pe-10 font-semibold mb-10"
+            >
+              Hi, I’m Shubham Wankar, a passionate MERN Full Stack Developer
+              Trainee at Fireblaze AI School. <br /><br />
+              💻 Skilled in HTML5, CSS3, Tailwind CSS, Bootstrap 5, JavaScript
+              (ES6+), Git & GitHub, and exploring Python for automation and
+              problem-solving. <br /><br />🚀 I enjoy building scalable,
+              responsive, and user-friendly web applications, and I have a
+              strong focus on writing clean and maintainable code.
+              <br /><br />🌱 Currently learning advanced full-stack development
+              practices while working on real-world projects and eager to
+              contribute to impactful software solutions.
+            </p>
+
+            <button
+              class="text-[1rem] font-semibold uppercase text-stone-100 rounded-md py-3 px-9 bg-gradient-to-r from-[#5256E0] to-[#7F50EC] animate-pulse"
+            >
+              DOWNLOAD CV
+            </button>
+          </div>
+        </section>
+
+        <section
+          id="skills"
+          class="skills my-[8rem] md:scroll-mt-[7rem] lg:scroll-mt-[4rem]"
+        >
+          <h2
+            class="text-[2rem] md:text-[2.5rem] font-bold mt-[8rem] mb-[4rem]"
+          >
+            TECHNICAL SKILLS
+          </h2>
+
+          <div
+            class="flex flex-col justify-around items-center gap-10 md:flex-col lg:gap-[5rem] lg:flex-row"
+          >
+            <div
+              class="grid grid-cols-2 gap-x-[2rem] gap-y-[1rem] md:grid-cols-3 md:gap-x-[4rem] md:gap-y-[2rem]"
+            >
+              <div
+                class="border-2 border-stone-500 rounded-lg p-5 md:py-4 md:px-8 text-center"
+              >
+                <img
+                  src="../Portfolio-Project/assets/tech-img/HTML5.png"
+                  alt="html5 logo"
+                  class="w-[6rem] h-[6rem] md:w-[7rem] md:h-[7rem]"
+                />
+                <h2 class="text-[1.2rem] font-medium">HTML 5</h2>
+              </div>
+
+              <div
+                class="border-2 border-stone-500 rounded-lg p-5 md:py-4 md:px-8 text-center"
+              >
+                <img
+                  src="../Portfolio-Project/assets/tech-img/CSS3.png"
+                  alt="html5 logo"
+                  class="w-[6rem] h-[6rem] md:w-[7rem] md:h-[7rem]"
+                />
+                <h2 class="text-[1.2rem] font-medium">CSS 3</h2>
+              </div>
+
+              <div
+                class="border-2 border-stone-500 rounded-lg p-5 md:py-4 md:px-8 text-center"
+              >
+                <img
+                  src="../Portfolio-Project/assets/tech-img/JavaScript.png"
+                  alt="html5 logo"
+                  class="w-[6rem] h-[6rem] md:w-[7rem] md:h-[7rem]"
+                />
+                <h2 class="text-[1.2rem] font-medium">JAVASCRIPT</h2>
+              </div>
+
+              <div
+                class="border-2 border-stone-500 rounded-lg p-5 md:py-4 md:px-8 text-center"
+              >
+                <img
+                  src="../Portfolio-Project/assets/tech-img/Bootstrap.png"
+                  alt="html5 logo"
+                  class="w-[6rem] h-[6rem] md:w-[7rem] md:h-[7rem]"
+                />
+                <h2 class="text-[1.2rem] font-medium">BOOTSTRAP</h2>
+              </div>
+
+              <div
+                class="border-2 border-stone-500 rounded-lg p-5 md:py-4 md:px-8 text-center"
+              >
+                <img
+                  src="../Portfolio-Project/assets/tech-img/Tailwind CSS.png"
+                  alt="html5 logo"
+                  class="w-[6rem] h-[6rem] md:w-[7rem] md:h-[7rem]"
+                />
+                <h2 class="text-[1.2rem] font-medium">TAILWIND</h2>
+              </div>
+
+              <div
+                class="border-2 border-stone-500 rounded-lg p-5 md:py-4 md:px-8 text-center"
+              >
+                <img
+                  src="../Portfolio-Project/assets/tech-img/Git.png"
+                  alt="html5 logo"
+                  class="w-[6rem] h-[6rem] md:w-[7rem] md:h-[7rem]"
+                />
+                <h2 class="text-[1.2rem] font-medium">GIT</h2>
+              </div>
+
+              <div
+                class="border-2 border-stone-500 rounded-lg p-5 md:py-4 md:px-8 text-center"
+              >
+                <img
+                  src="../Portfolio-Project/assets/tech-img/GitHub.png"
+                  alt="html5 logo"
+                  class="w-[6rem] h-[6rem] md:w-[7rem] md:h-[7rem]"
+                />
+                <h2 class="text-[1.2rem] font-medium">GITHUB</h2>
+              </div>
+
+              <div
+                class="border-2 border-stone-500 rounded-lg p-5 md:py-4 md:px-8 text-center"
+              >
+                <img
+                  src="../Portfolio-Project/assets/tech-img/React.png"
+                  alt="html5 logo"
+                  class="w-[6rem] h-[6rem] md:w-[7rem] md:h-[7rem]"
+                />
+                <h2 class="text-[1.2rem] font-medium">REACT</h2>
+              </div>
+
+              <div
+                class="border-2 border-stone-500 rounded-lg p-5 md:py-4 md:px-8 text-center"
+              >
+                <img
+                  src="../Portfolio-Project/assets/tech-img/Python.png"
+                  alt="html5 logo"
+                  class="w-[6rem] h-[6rem] md:w-[7rem] md:h-[7rem]"
+                />
+                <h2 class="text-[1.2rem] font-medium">PYTHON</h2>
+              </div>
+            </div>
+
+            <div
+              class="bg-stone-100 px-[5rem] py-[3rem] self-center rounded-lg md:py-[2rem] lg:py-[3rem]"
+            >
+              <div
+                class="flex items-center justify-center gap-5 mb-[2.5rem] md:mb-[2rem] lg:mb-[2.5rem]"
+              >
+                <h2
+                  class="text-[4rem] md:text-[6rem] text-[#854FEE] font-extrabold"
+                >
+                  01
+                </h2>
+                <p class="uppercase text-[1.4rem] md:text-[1.2rem] font-medium">
+                  Year <br />
+                  experience <br />
+                  working
+                </p>
+              </div>
+
+              <div class="flex items-center gap-5">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="size-10 md:size-14"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+
+                <div>
+                  <h2
+                    class="text-[1.4rem] font-medium text-[#854FEE] uppercase"
+                  >
+                    Call me now
+                  </h2>
+                  <p class="text-[1rem] md:text-[1.4rem] font-bold">
+                    (+91)-9890-733-580
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          id="projects"
+          class="projects my-[8rem] md:scroll-mt-[9rem] lg:scroll-mt-[4rem]"
+        >
+          <h2
+            class="text-[2rem] md:text-[2.5rem] font-bold mt-[8rem] mb-[4rem] uppercase"
+          >
+            <span> quality work </span><br />
+            <span> Recently done projects </span>
+          </h2>
+
+          <div
+            class="flex flex-col gap-5 md:flex-row md:justify-around md:gap-10 mb-[7rem]"
+          >
+            <div>
+              <img
+                src="../Portfolio-Project/assets/project-img/Fireblaze-Clone.png"
+                alt="Fireblaze AI School Website Clone"
+                class="w-[50rem]"
+              />
+            </div>
+
+            <div class="flex flex-col py-0 md:py-5">
+              <h2
+                class="text-[1.6rem] md:text-[2.4rem] text-[purple] font-semibold mb-3"
+              >
+                Fireblaze AI School Website Clone
+              </h2>
+
+              <p class="text-[1.4rem] mb-5 md:mb-0">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eum
+                eius, asperiores aspernatur ipsa officia modi repellendus? Illo,
+                sint consectetur!
+              </p>
+
+              <p class="text-[1.4rem] font-bold mt-auto">
+                Skills Used : HTML5, CSS3
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="flex flex-col gap-5 md:flex-row md:justify-around md:gap-10 mb-[7rem]"
+          >
+            <div class="flex flex-col py-0 md:py-5">
+              <h2
+                class="text-[1.6rem] md:text-[2.4rem] text-[purple] font-semibold mb-3"
+              >
+                Shopping Cart
+              </h2>
+
+              <p class="text-[1.4rem] mb-5 md:mb-0">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eum
+                eius, asperiores aspernatur ipsa officia modi repellendus? Illo,
+                sint consectetur!
+              </p>
+
+              <p class="text-[1.4rem] font-bold mt-auto">
+                Skills Used : HTML5, CSS3, TAILWIND CSS
+              </p>
+            </div>
+
+            <div>
+              <img
+                src="../Portfolio-Project/assets/project-img/Shopping-Cart.png"
+                alt="Fireblaze AI School Website Clone"
+                class="w-[50rem]"
+              />
+            </div>
+          </div>
+
+          <div
+            class="flex flex-col gap-5 md:flex-row md:justify-around md:gap-10 mb-[7rem]"
+          >
+            <div>
+              <img
+                src="../Portfolio-Project/assets/project-img/Social-Media-Card.png"
+                alt="Fireblaze AI School Website Clone"
+                class="w-[50rem]"
+              />
+            </div>
+
+            <div class="flex flex-col py-0 md:py-5">
+              <h2
+                class="text-[1.6rem] md:text-[2.4rem] text-[purple] font-semibold mb-3"
+              >
+                Social Media Cards
+              </h2>
+
+              <p class="text-[1.4rem] mb-5 md:mb-0">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eum
+                eius, asperiores aspernatur ipsa officia modi repellendus? Illo,
+                sint consectetur!
+              </p>
+
+              <p class="text-[1.4rem] font-bold mt-auto">
+                Skills Used : HTML5, CSS3, BOOTSTRAP
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="education" class="education my-[8rem] scroll-mt-[4rem]">
+          <h2
+            class="text-[2rem] md:text-[2.5rem] font-bold mt-[8rem] mb-[4rem] uppercase"
+          >
+            EDUCATION QUALIFICATION
+          </h2>
+
+          <div class="education-box border-[#6654E5] border-l-[0.2rem] p-0">
+            <div
+              class="relative after:content-[''] after:absolute after:top-0 after:w-5 after:h-5 after:bg-[#6654E5] after:left-[-11px] after:rounded-[500rem] relative before:content-[''] before:absolute before:top-[-10px] before:w-10 before:h-10 before:bg-[#a7abef] before:left-[-22px] before:rounded-[500rem] before:z-[-1] pl-10 mb-10"
+            >
+              <h2 class="text-[1.2rem] text-[purple] uppercase font-semibold">
+                Bachelor's Degree in Electronics Engineering
+              </h2>
+              <p class="text-[1rem] font-medium text-stone-700">
+                RTMNU - Nagpur University
+              </p>
+              <h2 class="text-[1.1rem] font-semibold">
+                G.H.Raisoni College of Engineering, Nagpur
+              </h2>
+            </div>
+
+            <div
+              class="relative after:content-[''] after:absolute after:top-0 after:w-5 after:h-5 after:bg-[#6654E5] after:left-[-11px] after:rounded-[500rem] pl-10 mb-10 relative before:content-[''] before:absolute before:top-[-10px] before:w-10 before:h-10 before:bg-[#a7abef] before:left-[-22px] before:rounded-[500rem] before:z-[-1]"
+            >
+              <h2 class="text-[1.2rem] text-[purple] uppercase font-semibold">
+                Diploma in Electronics Engineering
+              </h2>
+              <p class="text-[1rem] font-medium text-stone-700">
+                MSBTE - Mumbai University
+              </p>
+              <h2 class="text-[1.1rem] font-semibold">
+                Shree Datta Meghe Polytechnic, Nagpur
+              </h2>
+            </div>
+
+            <div
+              class="relative after:content-[''] after:absolute after:top-0 after:w-5 after:h-5 after:bg-[#6654E5] after:left-[-11px] after:rounded-[500rem] pl-10 mb-10 relative before:content-[''] before:absolute before:top-[-10px] before:w-10 before:h-10 before:bg-[#a7abef] before:left-[-22px] before:rounded-[500rem] before:z-[-1]"
+            >
+              <h2 class="text-[1.2rem] text-[purple] uppercase font-semibold">
+                High School Degree
+              </h2>
+              <p class="text-[1rem] font-medium text-stone-700">
+                Central Board of Secondary Education
+              </p>
+              <h2 class="text-[1.1rem] font-semibold">
+                BJM-Carmel Academy, Chandrapur
+              </h2>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <hr class="border-black my-10" />
+
+    <footer id="contacts">
+      <div class="flex items-center justify-around mb-8">
+        <p class="text-stone-800">
+          Copyright ©2025 All rights reserved | This template is made with ❤️ by
+          Shubham Wankar
+        </p>
+
+        <div class="flex items-center gap-5">
+          <a href="https://github.com/shubhamwankar-dev"
+            ><img
+              src="./assets/tech-img/github_git_icon_145985.ico"
+              alt="git icon"
+              class="w-[2.5rem]"
+          /></a>
+          <a href="www.linkedin.com/in/shubhamwankar-dev"
+            ><img
+              src="./assets/tech-img/linkedin_logo_icon_134465.ico"
+              alt="linkedin icon"
+              class="w-[2.5rem]"
+          /></a>
+          <a href="mailto:shubhamwankar-dev@gmail.com"
+            ><img
+              src="./assets/tech-img/gmail_new_logo_icon_159149.ico"
+              alt="gmail icon"
+              class="w-[2.5rem]"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
